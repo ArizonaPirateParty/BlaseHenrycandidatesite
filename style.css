@@ -86,7 +86,7 @@ a {
     -webkit-text-stroke-width: 4px;
     font-weight: bold;
     paint-order: stroke fill;
-    background-color: #ffffff;
+    background-color: #5d0096;
 }
 
 .fix-stroke{
