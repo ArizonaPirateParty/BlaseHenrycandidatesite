@@ -4,7 +4,7 @@
     padding-left: 70px;
     font-family: Arial, Helvetica, sans-serif;
     color: #007a1a;
-    -webkit-text-stroke: rgb(255, 255, 255);
+    -webkit-text-stroke: rgb(0, 122, 26);
     -webkit-text-stroke-width: 2px;
     font-weight: bold;
     paint-order: stroke fill;
@@ -28,7 +28,7 @@ h2 {
     padding-left: 70px;
     font-family:Impact, Arial, Helvetica, sans-serif;
     -webkit-text-fill-color: #007a1a;
-    -webkit-text-stroke: rgb(255, 255, 255);
+    -webkit-text-stroke: rgb(0, 122, 26);
     -webkit-text-stroke-width: 3px;
     font-weight: bold;
     paint-order: stroke fill;
@@ -40,7 +40,7 @@ ul {
     padding-left: 70px;
     font-family: Arial, Helvetica, sans-serif;
     color: #007a1a;
-    -webkit-text-stroke: rgb(255, 255, 255);
+    -webkit-text-stroke: rgb(0,122, 26);
     -webkit-text-stroke-width: 2px;
     font-weight: bold;
     paint-order: stroke fill;
@@ -52,7 +52,7 @@ ul {
     padding-right: 70px;
     padding-left: 70px;
     color: #007a1a;
-    -webkit-text-stroke: rgb(255, 255, 255);
+    -webkit-text-stroke: rgb(0, 122, 26);
     -webkit-text-stroke-width: 4px;
     font-weight: bold;
     paint-order: stroke fill;
@@ -64,7 +64,7 @@ ul {
     padding-right: 70px;
     padding-left: 70px;
     color: #007a1a;
-    -webkit-text-stroke: rgb(255, 255, 255);
+    -webkit-text-stroke: rgb(0, 122, 26);
     -webkit-text-stroke-width: 4px;
     font-weight: bold;
     paint-order: stroke fill;
@@ -73,7 +73,7 @@ ul {
 
 a {
     -webkit-text-fill-color: #0d0001;
-    -webkit-text-stroke: rgb(255, 255, 255);
+    -webkit-text-stroke: rgb(13, 0, 1);
     -webkit-text-stroke-width: 2px;
     font-weight: bold;
     paint-order: stroke fill;
@@ -82,7 +82,7 @@ a {
 
 .container-fluid{
     -webkit-text-fill-color: #007a1a;
-    -webkit-text-stroke: rgb(255, 255, 255);
+    -webkit-text-stroke: rgb(0, 122, 26);
     -webkit-text-stroke-width: 4px;
     font-weight: bold;
     paint-order: stroke fill;
