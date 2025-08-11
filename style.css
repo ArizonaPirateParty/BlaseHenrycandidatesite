@@ -3,7 +3,7 @@
     padding-right: 70px;
     padding-left: 70px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #007a1a;
+    color: #00FA32;
     -webkit-text-stroke: rgb(13, 0, 1);
     -webkit-text-stroke-width: 2px;
     font-weight: bold;
@@ -15,7 +15,7 @@ p {
     padding-right: 70px;
     padding-left: 70px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #007a1a;
+    color: #00FA32;
     -webkit-text-stroke: rgb(13, 0, 1);
     -webkit-text-stroke-width: 2px;
     font-weight: bold;
@@ -27,7 +27,7 @@ h2 {
     padding-right: 70px;
     padding-left: 70px;
     font-family:Impact, Arial, Helvetica, sans-serif;
-    -webkit-text-fill-color: #007a1a;
+    -webkit-text-fill-color: #00FA32;
     -webkit-text-stroke: rgb(13, 0, 1);
     -webkit-text-stroke-width: 3px;
     font-weight: bold;
@@ -39,7 +39,7 @@ ul {
     padding-right: 70px;
     padding-left: 70px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #007a1a;
+    color: #00FA32;
     -webkit-text-stroke: rgb(13, 0, 1);
     -webkit-text-stroke-width: 2px;
     font-weight: bold;
@@ -51,7 +51,7 @@ ul {
     padding-top: 30px;
     padding-right: 70px;
     padding-left: 70px;
-    color: #007a1a;
+    color: #00FA32;
     -webkit-text-stroke: rgb(13, 0, 1);
     -webkit-text-stroke-width: 4px;
     font-weight: bold;
@@ -63,7 +63,7 @@ ul {
 #platform {
     padding-right: 70px;
     padding-left: 70px;
-    color: #007a1a;
+    color: #00FA32;
     -webkit-text-stroke: rgb(13, 0, 1);
     -webkit-text-stroke-width: 4px;
     font-weight: bold;
@@ -81,7 +81,7 @@ a {
 }
 
 .container-fluid{
-    -webkit-text-fill-color: #007a1a;
+    -webkit-text-fill-color: #00FA32;
     -webkit-text-stroke: rgb(13, 0, 1);
     -webkit-text-stroke-width: 4px;
     font-weight: bold;
