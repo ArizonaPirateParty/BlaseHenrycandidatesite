@@ -177,69 +177,62 @@ footer{
 }
 
 .navbar-brand{
-    -webkit-text-fill-color: #00FA32;
-    -webkit-text-stroke: rgb(13, 0, 1);
-    -webkit-text-stroke-width: 2px;
+    color: black !important;
     font-weight: bold;
-    paint-order: stroke fill;
-    font-family:Impact, Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .nav-link{
-    -webkit-text-fill-color: #00FA32;
-    -webkit-text-stroke: rgb(13, 0, 1);
-    -webkit-text-stroke-width: 2px;
+    color: black !important;
     font-weight: bold;
-    paint-order: stroke fill;
-    font-family:Impact, Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .bg-body-tertiary{
     background-color: #5d0096 !important;
 }
 .navbar{
-    --bs-navbar-brand-hover-color: #00FA32;
-    --bs-navbar-hover-color: #00FA32;
+    --bs-navbar-brand-hover-color: black;
+    --bs-navbar-hover-color: black;
 }
 
 .navbar-toggler{
-    background-color: #00FA32;
+    background-color: #5d0096;
 }
 
 .nav-link:hover{
-    color: #00FA32;
+    color: black;
 }
 
 .nav-link:active{
-    color: #00FA32;
+    color: black;
 }
 
 .nav-link:visited{
-    color: #00FA32;
+    color: black;
 }
 
 .nav-link:focus{
-    color: #00FA32;
+    color: black;
 }
 
 .navbar-brand:hover{
-    color: #00FA32;
+    color: black;
 }
 
 .navbar-brand:active{
-    color: #00FA32;
+    color: black;
 }
 
 .navbar-brand:visited{
-    color: #00FA32;
+    color: black;
 }
 
 .navbar-brand:focus{
-    color: #00FA32;
+    color: black;
 }
 
 .navbar-toggler-icon{
-    color: #00FA32;
 }
 
 #petition-btn{
@@ -255,3 +248,5 @@ footer{
     paint-order: stroke fill;
     font-family: Arial, sans-serif;
 }
+
+

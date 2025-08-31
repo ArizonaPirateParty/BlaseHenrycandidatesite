@@ -12,16 +12,20 @@
     <body>
         
         <!-- Navbar elements -->
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
                     <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="https://openclipart.org/image/2000px/140407" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
-                        Blase Henry</a>
+                        Blase Henry
+                    </a>
+                    <div class="d-none mx-auto" id="navbar-petition-btn-container">
+                        <a href="https://go.azsos.gov/4csm" target="_blank" class="btn btn-danger btn-sm" id="navbar-petition-btn">Sign the Petition</a>
+                    </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#welcome">Welcome</a>
                         </li>
@@ -404,6 +408,23 @@
                 "6016; target="_blank"> Bluesky </a>
             </p>
         </div>
+    <script>
+            window.addEventListener('scroll', function() {
+                var petitionSection = document.getElementById('Petition');
+                var navbarButtonContainer = document.getElementById('navbar-petition-btn-container');
+                var originalButton = document.getElementById('petition-btn');
+
+                var petitionSectionRect = petitionSection.getBoundingClientRect();
+
+                if (petitionSectionRect.top < 0) {
+                    navbarButtonContainer.classList.remove('d-none');
+                    originalButton.classList.add('d-none');
+                } else {
+                    navbarButtonContainer.classList.add('d-none');
+                    originalButton.classList.remove('d-none');
+                }
+            });
+        </script>
     </body>
     <footer>
         
