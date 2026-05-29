@@ -232,8 +232,7 @@ footer{
     color: black;
 }
 
-.navbar-toggler-icon{
-}
+/* .navbar-toggler-icon{} */
 
 #petition-btn{
     background-color: red !important;
@@ -249,4 +248,5 @@ footer{
     font-family: Arial, sans-serif;
 }
 
+li {margin: 0px 75px}
 
